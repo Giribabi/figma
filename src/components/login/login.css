@@ -1,0 +1,81 @@
+*{
+    text-align: center;
+    font-family: arial;
+}
+.page{
+    background-color: white;
+    display: inline-block;
+    border-radius: 1em;
+}
+.figmatos,.privacy,.login,.foot1{
+    color: rgb(0, 213, 255);
+    text-decoration: none;
+}
+.foot1:hover,.login:hover{
+    text-decoration: underline;
+}
+.heading{
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+}
+input{
+    border: 2.2px solid black;
+    border-radius: 0.65em;
+    padding: 3.3%;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 150px;
+    text-align: left;
+}
+input:focus{
+    border: 3px solid rgb(0, 229, 255);
+}
+.or{
+    padding: 2%;
+    color: grey;
+}
+.google{
+    color: black;
+    font-size: large;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 0.65em;
+    padding: 3%;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: inline;
+}
+.head{
+    color: black;
+    font-weight: 500;
+}
+.google-icon{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 2px;
+    padding-right: 8px;
+}
+.foot{
+    font-size: small;
+    color: grey;
+    padding: 20px;
+}
+.foot2{
+    color: grey;
+    padding: 20px;
+}
+.account{
+    background-color: black;
+    padding: 3%;
+    font-size: large;
+    border-radius: 0.65em;
+    font-weight: 700;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    display: inline;
+    margin: 5px;
+}
